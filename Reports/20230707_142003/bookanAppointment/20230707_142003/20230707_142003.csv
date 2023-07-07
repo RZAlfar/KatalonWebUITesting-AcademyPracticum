@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+bookanAppointment,Chrome 114.0.0.0,,,2023-07-07 14:20:11,2023-07-07 14:20:38,27.234s,FAILED
+,,,,,,,
+Test Cases/LogIn,Chrome 114.0.0.0,,,2023-07-07 14:20:12,2023-07-07 14:20:34,22.223s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-07 14:20:14,2023-07-07 14:20:21,7.296s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 114.0.0.0,,,2023-07-07 14:20:21,2023-07-07 14:20:23,2.247s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 114.0.0.0,,,2023-07-07 14:20:23,2023-07-07 14:20:26,2.924s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""))",Chrome 114.0.0.0,,,2023-07-07 14:20:26,2023-07-07 14:20:28,1.642s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 114.0.0.0,,,2023-07-07 14:20:28,2023-07-07 14:20:30,1.916s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 114.0.0.0,,,2023-07-07 14:20:30,2023-07-07 14:20:32,1.895s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 114.0.0.0,,,2023-07-07 14:20:32,2023-07-07 14:20:34,2.425s,PASSED
+,,,,,,,
+Test Cases/bookanAppointment,Chrome 114.0.0.0,,,2023-07-07 14:20:38,2023-07-07 14:20:38,0.289s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 114.0.0.0,,,2023-07-07 14:20:38,2023-07-07 14:20:38,0.264s,FAILED
